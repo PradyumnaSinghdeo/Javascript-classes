@@ -234,3 +234,6 @@
 
 //function hof(anotherFunction){anotherFunction(..)} // Taking as arguments
 // function hof() { return anotherFunc} //Returning them
+
+
+//
