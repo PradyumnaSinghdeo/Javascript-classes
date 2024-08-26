@@ -174,3 +174,6 @@
 // let moreFruits = ["peach", "pineapple", ...fruits];
 // console.log(moreFruits);
 //Use the spread operator to combine two arrays of male and female actors into one . Min. length of each array is 3.
+// const maleActor = ["Varun", "Kartik"];
+// let allActor = ["Kriti", "Sunny", ...maleActor];
+// console.log(allActor);
