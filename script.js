@@ -177,3 +177,52 @@
 // const maleActor = ["Varun", "Kartik"];
 // let allActor = ["Kriti", "Sunny", ...maleActor];
 // console.log(allActor);
+
+//LOOPS-----AND ITERATORS ON ARRAYS---
+//Means/tools/programming constructs; We use to traverse over a data structure i.e. currently an array.
+//Print all fruits using loop - use for loop
+//Basic for loop using indexes.
+//for(let <initialIteratorVariable>=<initialValue>, <EndCondition>, <UpdateLogic>){// recuring logic}
+// let fruits = ["apple", "banana", "grape"]
+// for(let i = 0; i<fruits.length; i++){
+//     console.log(fruits[i]);
+// }
+//Using for loop with Iterator-------------Ease of Readiability
+// let fruits = ["apple", "banana", "grape"]
+// for(let fruit of fruits){
+//     console.log(fruit);
+// }
+//Use a for...of / Iterator Based for for loop to iterate over an array of colours and log each one. min length of array = 3.
+// let colours = ["orange" ,"red", "Black", "Green"];
+// for(let color of colours){
+//     console.log(color);
+// }
+
+//forEach -> Property of Arrays. Also called as an iterative method.
+//we provide a method as a argument which accepts/provides us access to each element and its index of the array.
+// let colours = ["orange" ,"red", "Black", "Green"];
+// colours.forEach(function(color, index){
+//     console.log(color + " has index of " + index);
+// })
+//Using arrow function
+// colours.forEach((color, index)=>{
+//     console.log(color + " has index of " + index);
+// })
+
+//Use while loop and do-while loop to print Vegetables and their indexes.
+
+
+//All the Loops that we discussed so far; didn't return anything.
+//map() ->Iterative method which returns a result which is modified array.
+// let ages = [23, 27, 19, 43, 72];//Assume to be database
+//An year has passed. Everyone's birthday have also passed.
+// let newAges = ages.map((age, index) => ++age);
+// console.log(newAges);
+// ages.forEach((age, index) => ++age);
+// console.log(ages);
+//Use Map to square each number in an array . muin length of the array should be 3.
+// let number =[1,2,3,4];
+// let sqNum = number.map((num) => num*num);
+// console.log(sqNum);
+//or
+// number.forEach((num) => console.log(num*num));
