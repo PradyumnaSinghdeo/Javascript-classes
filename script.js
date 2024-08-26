@@ -226,3 +226,11 @@
 // console.log(sqNum);
 //or
 // number.forEach((num) => console.log(num*num));
+
+
+//Higher-order Functions: Map(),  Filter(), and Reduce()
+//Higher-order functions are functions that operate on other functions, either by taking them as arguments or by returning them. In JavaScript, three commonly used higher-order functions are map....
+//Function {function2}
+
+//function hof(anotherFunction){anotherFunction(..)} // Taking as arguments
+// function hof() { return anotherFunc} //Returning them
