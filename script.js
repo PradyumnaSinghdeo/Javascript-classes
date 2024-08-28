@@ -214,6 +214,7 @@
 
 //All the Loops that we discussed so far; didn't return anything.
 //map() ->Iterative method which returns a result which is modified array.
+//map((item, index) => {//Logic}) --> Higher Order Function..
 // let ages = [23, 27, 19, 43, 72];//Assume to be database
 //An year has passed. Everyone's birthday have also passed.
 // let newAges = ages.map((age, index) => ++age);
@@ -236,4 +237,46 @@
 // function hof() { return anotherFunc} //Returning them
 
 
-//
+// Filter Method :: Iterative Method Of Arrays
+// Filter create/ returns a new array with all elements that pass the test{condition holds true}
+//implemented by the provided function
+
+//Create a Number Of arrays and find even elements.
+// let numbers = [1, 2, 3, 4, 5];
+// let evenNumbers = numbers.filter((number) => {return (number%2 === 0)});
+// console.log(evenNumbers);
+//In filter, if supplied condition{Inside callback function} value is true; the item becomes a part of the result..
+                                                                //Else, the item is discarded..
+//Use filter to extract all numbers which are positive from an array. Min length of the array is 6.
+//Make sure to include both Negative, positive and zero Elements..
+// let numbers =[1, -4, 2, 5, -9, 0, 12, 6];
+// let positives = numbers.filter((number)=> number < 0);
+// console.log(positives);
+
+//reduce :: Iterative Method || Args.- Item, index
+//Map returns::? Array
+//Filter returns? Array
+// Reduce returns a single value
+
+//What operation can create a singular output?
+// You can do - sum | multiplication | picking the first one | picking a random item 
+//accumulator :: Accumuilates the callback's return values;
+//it is accumulated value previously returned in the last invocation.
+// let numbers =[1, 2, 3, 4];
+// let sum = numbers.reduce((accumulator, number) => {
+//     console.log("accumulator is currently", accumulator);
+//     console.log("current number is" ,number);
+//     return accumulator + number;
+// })
+// console.log(" SUM is ", sum); 
+
+// Reduce a list of numbers to a single product. min length of array = 4.
+// let numbers =[1, 2, 3, 4, 5];
+// const product = numbers.reduce(((accumulator, currentNumber)=> accumulator * currentNumber), 1);
+// console.log("The product of the list is:", product);
+
+
+
+
+
+
