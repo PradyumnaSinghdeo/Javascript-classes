@@ -275,8 +275,73 @@
 // const product = numbers.reduce(((accumulator, currentNumber)=> accumulator * currentNumber), 1);
 // console.log("The product of the list is:", product);
 
+//Find the use , and write simple 1-linear examples of 
+// Find---
+        // Locates the first item for which the supplied condition is true
+        // let numbers =[1, 2, 3, 4];
+        // let firstEven = numbers.find(num => num % 2 === 0);
+        // console.log(firstEven);
+// Includes----
+            //checks whether an item is member of the array or not
+            // let fruits = ["apple", "banana", "grape"];
+            // console.log(fruits.includes("banana")); //true
+            // console.log(fruits.includes("orange"));//false
+// indexOf---
+            // returns the first index at which a  given element can be found in the Array, or -1 if it is not present
+//lastIndexOf---
+            //Returns the last index at ehich a given element can be found in the array, or -1 if it is not present.
+            // let fruits = ["apple", "banana", "grape", "coconut", "grape"];
+            // console.log(fruits.indexOf("banana")); //1
+            // console.log(fruits.indexOf("orange"));//-1
+            // console.log(fruits.lastIndexOf("grape")); //1
+            // console.log(fruits.lastIndexOf("orange"));//-1
+// some---
+        //Tests whether atleast on element in the array passes the conditions true if the provided function.
+        //some checks whether there exists a member in the array; which sacrifies the supplied condition.
+    //     let numbers =[1, 2, 3, 4, 5];
+    //     let hasEven = numbers.some( num => num%2 === 0);
+    //     let hasNegative = numbers.some(num => num<0);
+
+    // //Conditionin hasEven | num % 2 === 0.
+    // console.log(hasEven); //true
+    // console.log(hasNegative);//False
+
+//-----------------OBJECTS---------------------
+//What are Objects??
+// Car :: Properties && Behaviours
+
+// Properties:: In Form of Key-Value Pairs delimited by ‘:’!!
+
+// car is a variable called Reference to the Object
+// car holds the memory address which points to the actual object stored in memory/heap
+// Object Literal Syntax
+
+// let car = {
+//     color: "Black",
+//     type: "SUV",
+//     engineCapacity: "1200",
+//     numberOfSeats: "12",
+//     engine: {
+//       valveCount: 4,
+//       moduleType: "v4"
+//     },
+//     pastOwners: ["Sumit", "Radhika", "John"]
+//   };
+
+//Accessing Object Properties
+//If I want to access the property - typt - from above car object
+//1. use "." operator
+//console.log(car.type);
+//If i want to access the property- numberof Seats - from above car object without using '.' operator.
+//2. Use bracket notation
+//console.log(car["numberOfSeats"]);
 
 
+//   new Object() Syntax
+// let car = new Object();
+// Use . operator or ____ way to assign values || Create Properties
+
+car.color = 
 
 
 
