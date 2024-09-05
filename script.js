@@ -341,7 +341,34 @@
 // let car = new Object();
 // Use . operator or ____ way to assign values || Create Properties
 
-car.color = 
+// Introduction to Function In Java-Script
+// function doSomething(){
+//         //....logic
+//         console.log("I did something")
+// }
+// function declaration
+/*
+syntax::
+function functionName(parameters){
+function body \ logic
+}
+*/
+//function expression:
+syntax::
+// const functionName = function(parameters){
+//         //function body
+// };
 
+//Write a function that takes two numbers as arguments and returns their sum using both ways..
+// function sumNumber(a, b){
+//         return a+b;
+// }(1, 3);
+// console.log(sumNumber);
 
+//scope:: determines the accesibility (visibility) of variables.
+// Javascript has three types of scopes
+// -Global Scope
+// -Function Scope
+// -Block Scope
 
+//Hosting in javascript
